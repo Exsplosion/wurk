@@ -1,3 +1,90 @@
+html {
+    font-family: "Roboto-Black";
+    font-size: 18px;
+}
+.logo-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2 {
+    font-size: 2rem;
+}
+.logo-section__un {
+    border: 1px solid #EC7979;
+    width: 170px;
+
+}
+h4 {
+    font-size: 1.3rem;
+}
+h5 {
+    font-size: 1rem;
+}
+.peoples-section {
+    margin-top: 83px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.peoples-section__col {
+    margin: 0px 15px;
+}
+.peoples-section__wr {
+    background: #E2E2E2;
+    color: #86878B;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 180px;
+    border-radius: 10px;
+}
+.peoples-section__tr {
+    width: 30px;
+    height: 20px;
+    position: absolute;    
+    top: calc(359px + 128px);
+    left: 300px;
+    transform: rotate(45deg);
+    background: #E2E2E2;
+
+}
+.peoples-section__tri {
+    width: 30px;
+    height: 20px;
+    position: absolute;    
+    top: calc(359px + 128px);
+    left: calc(300px + 400px);
+    transform: rotate(45deg);
+    background: #E2E2E2;
+
+}
+.peoples-section__tria {
+    width: 30px;
+    height: 20px;
+    position: absolute;    
+    top: calc(359px + 128px);
+    right: calc(320px + 195px);
+    transform: rotate(45deg);
+    background: #E2E2E2;
+
+}
+.peoples-section__fc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.peoples-section__txt {
+    margin-left: 30px;
+}
+.fc {
+    margin-top: 66px;
+}
 @font-face {
     font-family: "Roboto-Black";
     src: url("Roboto-Black.ttf") format("truetype");
